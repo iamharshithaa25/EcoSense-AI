@@ -1,0 +1,310 @@
+
+.eco-overview {
+  background: #ffffff;
+  border: 1px solid #e5eaf0;
+  border-radius: 16px;
+  padding: 25px;
+  margin: 25px 0;
+  box-shadow: 0 4px 18px rgba(20, 40, 70, 0.04);
+}
+
+.eco-overview-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.eco-overview-tag {
+  color: #16845b;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 1.3px;
+}
+
+.eco-overview-heading h2 {
+  color: #172b3a;
+  font-size: 23px;
+  margin: 8px 0;
+}
+
+.eco-overview-heading p {
+  color: #718096;
+  font-size: 13px;
+  margin: 0;
+}
+
+.eco-overview-live {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 13px;
+  border-radius: 20px;
+  background: #e9f8ef;
+  color: #16834e;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.eco-live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #20b66b;
+}
+
+.eco-overview-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.eco-summary-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 18px 14px;
+  border: 1px solid #e9edf2;
+  border-radius: 12px;
+  background: #ffffff;
+  min-width: 0;
+}
+
+.eco-summary-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 11px;
+  color: #16845b;
+  background: #e8f7ef;
+}
+
+.eco-summary-icon.purple {
+  color: #7955c7;
+  background: #f0eaff;
+}
+
+.eco-summary-icon.blue {
+  color: #2875c7;
+  background: #e8f2ff;
+}
+
+.eco-summary-icon.green {
+  color: #16845b;
+  background: #e8f7ef;
+}
+
+.eco-summary-card p {
+  color: #718096;
+  font-size: 12px;
+  margin: 1px 0 7px;
+}
+
+.eco-summary-card h3 {
+  color: #172b3a;
+  font-size: 19px;
+  margin: 0 0 6px;
+  overflow-wrap: anywhere;
+}
+
+.eco-summary-card small {
+  color: #8793a1;
+  font-size: 10px;
+  line-height: 1.4;
+}
+
+.eco-summary-card .eco-prediction-text {
+  font-size: 15px;
+}
+
+.eco-summary-card .eco-on {
+  color: #168b54;
+}
+
+.eco-summary-card .eco-off {
+  color: #d34b4b;
+}
+
+.eco-summary-card .health-good {
+  color: #168b54;
+}
+
+.eco-summary-card .health-warning {
+  color: #c1841b;
+}
+
+.eco-summary-card .health-critical {
+  color: #d34b4b;
+}
+
+.eco-sensor-overview {
+  border-top: 1px solid #edf0f4;
+  padding-top: 22px;
+}
+
+.eco-subheading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 18px;
+}
+
+.eco-subheading h3 {
+  color: #172b3a;
+  font-size: 16px;
+  margin: 0 0 5px;
+}
+
+.eco-subheading p {
+  color: #84909d;
+  font-size: 12px;
+  margin: 0;
+}
+
+.eco-subheading > span {
+  background: #eef8f2;
+  color: #16845b;
+  padding: 7px 10px;
+  border-radius: 6px;
+  font-size: 10px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.eco-sensor-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.eco-sensor-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 14px 10px;
+  background: #f8fafc;
+  border: 1px solid #edf0f4;
+  border-radius: 10px;
+  min-width: 0;
+}
+
+.eco-sensor-icon {
+  color: #16845b;
+  flex-shrink: 0;
+}
+
+.eco-sensor-item p {
+  color: #718096;
+  font-size: 11px;
+  margin: 0 0 5px;
+}
+
+.eco-sensor-item h4 {
+  color: #172b3a;
+  font-size: 17px;
+  margin: 0 0 5px;
+}
+
+.eco-sensor-item small {
+  color: #8b96a3;
+  font-size: 9px;
+  line-height: 1.4;
+}
+
+.eco-health-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 15px;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.eco-health-message.good {
+  background: #eff9f2;
+  color: #16834e;
+}
+
+.eco-health-message.warning {
+  background: #fff8e9;
+  color: #a66b0d;
+}
+
+.eco-health-message.critical {
+  background: #fff0f0;
+  color: #c43e3e;
+}
+
+.eco-health-message h4 {
+  font-size: 13px;
+  margin: 0 0 5px;
+}
+
+.eco-health-message p,
+.eco-health-message li {
+  font-size: 12px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.eco-health-message ul {
+  padding-left: 18px;
+  margin: 5px 0 0;
+}
+
+.eco-overview-note {
+  color: #929daa;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: 14px 0 0;
+}
+
+@media (max-width: 1100px) {
+  .eco-overview-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .eco-sensor-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 650px) {
+  .eco-overview {
+    padding: 16px;
+  }
+
+  .eco-overview-heading {
+    flex-direction: column;
+  }
+
+  .eco-overview-heading h2 {
+    font-size: 19px;
+  }
+
+  .eco-overview-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .eco-sensor-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .eco-subheading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 380px) {
+  .eco-sensor-grid {
+    grid-template-columns: 1fr;
+  }
+}

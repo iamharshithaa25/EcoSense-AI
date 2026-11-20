@@ -1,0 +1,29 @@
+{
+    "accuracy": 1.0,
+    "training_samples": 4000,
+    "testing_samples": 1000,
+    "features": [
+        "temperature",
+        "humidity",
+        "occupancy",
+        "light",
+        "air_quality",
+        "board_active"
+    ],
+    "classes": [
+        "Board-Active",
+        "Bright-Daylight",
+        "Empty",
+        "Occupied-High-Load",
+        "Occupied-Normal",
+        "Poor-Air-Quality"
+    ],
+    "feature_importance": {
+        "temperature": 0.13126274416591055,
+        "humidity": 0.020225382125607216,
+        "occupancy": 0.3048974421498582,
+        "light": 0.17224305115955083,
+        "air_quality": 0.22608934619323598,
+        "board_active": 0.14528203420583727
+    }
+}

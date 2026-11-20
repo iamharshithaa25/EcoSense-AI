@@ -1,0 +1,15 @@
+
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+dist/
+build/
+.DS_Store
+*.log
+
+backend/classroom_history.db

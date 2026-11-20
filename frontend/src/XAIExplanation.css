@@ -1,0 +1,274 @@
+
+.xai-section {
+  background: #ffffff;
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 15px;
+  box-shadow: 0 3px 14px #1c33400c;
+}
+
+.xai-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.xai-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #172b3a;
+  margin: 0 0 8px;
+}
+
+.xai-heading h2 svg {
+  color: #16877d;
+}
+
+.xai-heading p {
+  color: #788496;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.xai-method {
+  background: #e3f3f0;
+  color: #14756e;
+  padding: 9px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.xai-prediction-card {
+  background: linear-gradient(120deg, #e8f7f3, #f5fbf9);
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+}
+
+.xai-prediction-card > span {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  color: #16877d;
+}
+
+.xai-prediction-card h3 {
+  color: #126d67;
+  font-size: 23px;
+  margin: 10px 0;
+  overflow-wrap: anywhere;
+}
+
+.xai-prediction-card p {
+  color: #667587;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.xai-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin-bottom: 22px;
+}
+
+.xai-stat {
+  background: #fbfcfd;
+  border: 1px solid #e9eef0;
+  border-radius: 11px;
+  padding: 17px;
+}
+
+.xai-stat svg {
+  color: #16877d;
+}
+
+.xai-stat p {
+  color: #788496;
+  font-size: 12px;
+  margin: 9px 0 5px;
+}
+
+.xai-stat h3 {
+  color: #172b3a;
+  font-size: 22px;
+  margin: 0;
+}
+
+.xai-chart-panel {
+  padding: 21px;
+  border: 1px solid #e9eef0;
+  border-radius: 12px;
+}
+
+.xai-chart-panel h3 {
+  color: #172b3a;
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.xai-description {
+  color: #788496;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0 0 23px;
+}
+
+.xai-feature {
+  margin-bottom: 23px;
+}
+
+.xai-feature:last-child {
+  margin-bottom: 0;
+}
+
+.xai-feature-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 9px;
+}
+
+.xai-feature-top > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.xai-feature-top strong {
+  color: #172b3a;
+  font-size: 13px;
+}
+
+.xai-feature-top small {
+  color: #788496;
+  font-size: 11px;
+}
+
+.xai-positive,
+.xai-negative,
+.xai-neutral {
+  font-weight: 700;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+
+.xai-positive {
+  color: #16804a;
+}
+
+.xai-negative {
+  color: #d04b40;
+}
+
+.xai-neutral {
+  color: #788496;
+}
+
+.xai-bar-background {
+  width: 100%;
+  height: 10px;
+  border-radius: 20px;
+  background: #edf0f2;
+  overflow: hidden;
+}
+
+.xai-bar {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.4s ease;
+}
+
+.xai-bar-positive {
+  background: #20a464;
+}
+
+.xai-bar-negative {
+  background: #e16b5b;
+}
+
+.xai-direction {
+  display: block;
+  color: #788496;
+  font-size: 10px;
+  margin-top: 7px;
+}
+
+.xai-base-card {
+  background: #f7f9fb;
+  border: 1px solid #e9eef0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-top: 20px;
+}
+
+.xai-base-card strong {
+  font-size: 13px;
+  color: #172b3a;
+}
+
+.xai-base-card h3 {
+  color: #16877d;
+  font-size: 22px;
+  margin: 8px 0;
+}
+
+.xai-base-card p {
+  color: #788496;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.xai-information {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-top: 1px solid #e9eef0;
+  padding-top: 17px;
+  margin-top: 20px;
+  color: #788496;
+}
+
+.xai-information svg {
+  color: #16877d;
+  flex-shrink: 0;
+}
+
+.xai-information p {
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.xai-error {
+  color: #d04b40;
+  font-size: 13px;
+}
+
+@media (max-width: 650px) {
+  .xai-section {
+    padding: 17px;
+  }
+
+  .xai-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .xai-stat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .xai-chart-panel {
+    padding: 15px;
+  }
+}

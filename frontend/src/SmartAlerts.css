@@ -1,0 +1,267 @@
+
+.smart-alerts-section {
+  background: #ffffff;
+  padding: 25px;
+  margin: 30px 0;
+  border-radius: 15px;
+  box-shadow: 0 3px 14px #1c33400c;
+}
+
+.smart-alerts-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.smart-alerts-heading h2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 0 8px;
+  color: #172b3a;
+}
+
+.smart-alerts-heading h2 svg {
+  color: #16877d;
+}
+
+.smart-alerts-heading p {
+  color: #788496;
+  font-size: 13px;
+  margin: 0;
+}
+
+.alert-live-status {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #e6f6ee;
+  color: #16804a;
+  padding: 9px 13px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.live-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #20a464;
+}
+
+.alert-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-bottom: 28px;
+}
+
+.alert-summary-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px;
+  border: 1px solid #e9eef0;
+  border-radius: 12px;
+  background: #fbfcfd;
+}
+
+.summary-icon {
+  width: 43px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 11px;
+}
+
+.total-icon {
+  color: #16877d;
+  background: #e3f3f0;
+}
+
+.critical-icon {
+  color: #d93025;
+  background: #fdebea;
+}
+
+.warning-icon {
+  color: #c17a0a;
+  background: #fff3d9;
+}
+
+.alert-summary-card p {
+  color: #788496;
+  font-size: 12px;
+  margin: 0 0 5px;
+}
+
+.alert-summary-card h3 {
+  color: #172b3a;
+  font-size: 23px;
+  margin: 0;
+}
+
+.alerts-list > h3 {
+  font-size: 16px;
+  color: #172b3a;
+  margin-bottom: 15px;
+}
+
+.alert-item {
+  display: flex;
+  gap: 14px;
+  padding: 17px;
+  margin-bottom: 12px;
+  border: 1px solid #e9eef0;
+  border-left: 4px solid;
+  border-radius: 10px;
+}
+
+.alert-critical {
+  border-left-color: #d93025;
+  background: #fffafa;
+}
+
+.alert-warning {
+  border-left-color: #e3a126;
+  background: #fffdf7;
+}
+
+.alert-info {
+  border-left-color: #3182ce;
+  background: #f8fbff;
+}
+
+.alert-item-icon {
+  flex-shrink: 0;
+}
+
+.alert-critical .alert-item-icon {
+  color: #d93025;
+}
+
+.alert-warning .alert-item-icon {
+  color: #c17a0a;
+}
+
+.alert-info .alert-item-icon {
+  color: #3182ce;
+}
+
+.alert-item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.alert-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.alert-title-row h4 {
+  color: #172b3a;
+  font-size: 14px;
+  margin: 0;
+}
+
+.alert-badge {
+  padding: 5px 9px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.alert-badge.critical {
+  background: #fdebea;
+  color: #c62828;
+}
+
+.alert-badge.warning {
+  background: #fff0cc;
+  color: #9a6500;
+}
+
+.alert-badge.info {
+  background: #e4f1ff;
+  color: #2167a5;
+}
+
+.alert-item-content > p {
+  color: #667587;
+  font-size: 13px;
+  line-height: 1.6;
+  margin: 9px 0;
+}
+
+.alert-action {
+  font-size: 12px;
+  color: #14756e;
+  line-height: 1.6;
+}
+
+.no-alerts {
+  text-align: center;
+  padding: 35px 15px;
+  border: 1px dashed #b8ddd3;
+  border-radius: 12px;
+  background: #f7fcfa;
+  color: #16877d;
+}
+
+.no-alerts h3 {
+  color: #172b3a;
+  margin: 12px 0 7px;
+}
+
+.no-alerts p {
+  color: #788496;
+  font-size: 13px;
+  max-width: 430px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+.alert-footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  padding-top: 18px;
+  margin-top: 20px;
+  border-top: 1px solid #e9eef0;
+  color: #788496;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.alert-footer svg {
+  color: #16877d;
+  flex-shrink: 0;
+}
+
+@media (max-width: 650px) {
+  .smart-alerts-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .alert-summary-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .alert-title-row {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .smart-alerts-section {
+    padding: 17px;
+  }
+}

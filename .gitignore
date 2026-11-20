@@ -1,0 +1,17 @@
+# Python virtual environment and caches
+backend/venv/
+**/__pycache__/
+*.py[cod]
+
+# JavaScript dependencies and builds
+frontend/node_modules/
+frontend/dist/
+
+# Environment-specific settings and local SQLite data
+backend/.env
+frontend/.env
+frontend/.env.local
+backend/classroom_history.db
+backend/*.db-shm
+backend/*.db-wal
+backend/*.db-journal
